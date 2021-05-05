@@ -1,0 +1,4 @@
+kw1: SELECT `imie`,`nazwisko` FROM `matematycy` WHERE `rok_urodzenia`> 1700
+kw2: SELECT `id`,`nazwisko` FROM `matematycy` WHERE `liczba_publikacji`>10 AND `liczba_publikacji`<30
+kw3: SELECT SUM(`liczba_publikacji`) FROM `matematycy`WHERE `rok_urodzenia` > 1750
+kw4: CREATE TABLE publikacje( id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY , tytul TEXT , rok INTEGER);

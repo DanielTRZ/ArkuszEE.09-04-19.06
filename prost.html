@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <title> JS 2.7 </title>
+        <meta charset="utf-8">
+    </head>
+     
+    <body>
+        <header> Prosty Kalkulator </header>
+        <input type="text" id="pole_1">
+        <select id="pole_2">
+            <option value=""> </option>
+            <option value="+"> + </option>
+            <option value="-"> - </option>
+            <option value="*"> * </option>
+            <option value="/"> / </option>
+            <option value="%"> % </option>
+        </select>
+        <input type="text" id="pole_3">
+        <input type="submit" value="Wynik" onclick="Wynik()">
+        <input type="text" id="pole_4">
+         
+        <script>
+            var POLE_1 = document.getElementById('pole_1');
+            var POLE_2 = document.getElementById('pole_2');
+            var POLE_3 = document.getElementById('pole_3');
+            var POLE_4 = document.getElementById('pole_4');
+             
+            function Dodawanie(a, b){
+                return a + b;
+            }
+            function Odejmowanie (a, b){
+                return a - b;
+            }
+            function Mnozenie (a, b){
+                return a * b;
+            }
+            function Dzielenie (a , b){
+                if (b == 0) return 'Nie można dzielić przez 0!'; else return a / b ;
+            }
+            function Modulo (a, b){
+                return a % b;
+            }
+            function Wynik(){
+                var w1 = Number(POLE_1.value);
+                var w2 = Number(POLE_3.value);
+                var cos = String(POLE_2.value);
+             
+                if (cos == "") POLE_4.value = "Brak danych";
+                else if (cos == "+") POLE_4.value = Dodawanie(w1, w2);
+                else if (cos == "-") POLE_4.value = Odejmowanie(w1, w2);
+                else if (cos == "*") POLE_4.value = Mnozenie(w1, w2);
+                else if (cos == "/") POLE_4.value = Dzielenie(w1, w2);
+                else if(cos == "%") POLE_4.value = Modulo(w1, w2);
+            }
+             
+             
+        </script>
+    </body>
+</html>
