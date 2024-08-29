@@ -4,7 +4,7 @@ function dodawanie(){
 var a = document.getElementById("a").value;
 var b = document.getElementById("b").value;
     
- if( a ==""|| b ==""){
+if( a ==""|| b ==""){
 wynik.innerHTML="Prosze podać obie liczby.";
  }
    else  { 
