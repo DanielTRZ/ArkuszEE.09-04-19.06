@@ -13,7 +13,7 @@ a = parseFloat(a);
 b = parseFloat(b);
      
 var zliczenie = a + b;
-    wynik.innerHTML = "Wynik" +"  " + zliczenie;
+wynik.innerHTML = "Wynik" +"  " + zliczenie;
  }  
    
      }
