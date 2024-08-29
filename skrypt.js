@@ -1,7 +1,7 @@
 // moim zdaniem najszybsze i najprostsze rozwiazanie skryptu zadania
 
 function dodawanie(){
-    var a = document.getElementById("a").value;
+var a = document.getElementById("a").value;
     var b = document.getElementById("b").value;
     
  if( a ==""|| b ==""){
