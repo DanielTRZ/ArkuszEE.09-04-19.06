@@ -30,7 +30,7 @@ b = parseFloat(b);
      
 var zliczenie = a - b;
 wynik.innerHTML = "Wynik" +"  " + zliczenie;
- }  
+}  
       
     
 }
