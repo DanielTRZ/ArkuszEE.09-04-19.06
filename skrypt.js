@@ -32,7 +32,6 @@ var zliczenie = a - b;
 wynik.innerHTML = "Wynik" +"  " + zliczenie;
 }          
 }
-
 function mnozenie(){
     var a = document.getElementById("a").value;
     var b = document.getElementById("b").value;
