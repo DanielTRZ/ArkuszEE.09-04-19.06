@@ -38,7 +38,7 @@ var b = document.getElementById("b").value;
    
     
  if( a ==""|| b ==""){
-       wynik.innerHTML="Prosze podać obie liczby.";
+    wynik.innerHTML="Prosze podać obie liczby.";
  }
    else  { 
         
