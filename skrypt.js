@@ -42,7 +42,7 @@ wynik.innerHTML="Prosze podać obie liczby.";
 else{ 
         
 a = parseFloat(a);
-        b = parseFloat(b);
+b = parseFloat(b);
      
         var zliczenie = a * b;
         wynik.innerHTML = "Wynik" +"  " + zliczenie;
