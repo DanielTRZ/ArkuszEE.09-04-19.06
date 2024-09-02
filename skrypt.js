@@ -57,7 +57,7 @@ wynik.innerHTML="Prosze podać obie liczby.";
 }
 else{ 
         
-        a = parseFloat(a);
+      a = parseFloat(a);
         b = parseFloat(b);
      
         var zliczenie = a / b;
