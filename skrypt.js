@@ -63,8 +63,7 @@ b = parseFloat(b);
 var zliczenie = a / b;
 wynik.innerHTML = "Wynik" +"  " + zliczenie;
 }  
-    
-    
+       
     
 }function potegowanie(){
     var a = document.getElementById("a").value;
