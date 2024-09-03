@@ -65,7 +65,7 @@ wynik.innerHTML = "Wynik" +"  " + zliczenie;
 }  
           
 }function potegowanie(){
-    var a = document.getElementById("a").value;
+var a = document.getElementById("a").value;
 var b = document.getElementById("b").value;
    
     
