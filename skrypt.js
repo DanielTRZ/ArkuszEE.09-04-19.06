@@ -77,7 +77,7 @@ else {
 a = parseFloat(a);
 b = parseFloat(b);
      
-    var  zliczenie = a ** b;
+var  zliczenie = a ** b;
         wynik.innerHTML = "Wynik" +"  " + zliczenie;
  }  
     
